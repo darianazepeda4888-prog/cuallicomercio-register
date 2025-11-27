@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Exitoso - CUALLI COMERCIO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- CSS --- (Mismos estilos) */
+        :root {
+            --primary-color: #388E3C;
+            --secondary-color: #2E7D32;
+            --text-color: #333;
+            --background-color: #E8F5E9;
+            --card-background: #DCEDC8;
+            --border-color: #A5D6A7;
+            --success-color: #4CAF50;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .message-card {
+            background-color: var(--card-background);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(46, 125, 50, 0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .company-name {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: var(--secondary-color);
+            margin-bottom: 5px;
+        }
+        
+        .success-icon {
+            font-size: 3em;
+            color: var(--success-color);
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        p {
+            color: var(--text-color);
+            font-size: 1em;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .back-to-login a {
+            font-size: 0.9em;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            padding: 10px 20px;
+            border: 1px solid var(--primary-color);
+            border-radius: 8px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .back-to-login a:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-card">
+        <div class="header">
+            <p class="company-name">CUALLI COMERCIO</p>
+        </div>
+        
+        <span class="success-icon">🎉</span>
+        
+        <h2>¡Registro Completado!</h2>
+        
+        <p>
+            Tu cuenta ha sido creada con éxito.
+            <br>
+            **Ahora puedes iniciar sesión con tus credenciales.**
+        </p>
+        
+        <div class="back-to-login">
+            <a href="index.html">Ir al Inicio de Sesión</a>
+        </div>
+    </div>
+</body>
+</html>
